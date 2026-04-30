@@ -24,7 +24,6 @@ function formatDuration(seconds){
         second = (minutes%60)
         return hours > 1 ?` ${hours} hours ,${minutes} minutes, ${second} secs`:`${hours} hour, ${minutes} minute(s), ${second} sec(s) `;
     }
-    else if(seconds>=86400 && seconds<)
 
 
 
