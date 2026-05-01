@@ -52,7 +52,6 @@ function formatDuration(secondsPassed){
         seconds= (((secondsPassed%(86400*30))%86400)%3600)%60;
         return (months==1?`${months} month`:`${months} months`) + (days==1? ` ${days} day`: ` ${days} days`) + (hours==1? ` ${hours} hour`: ` ${hours} hours`) + (minutes==1? ` ${minutes} minute`: ` ${minutes} minutes`) + (seconds==1? ` ${seconds} second`: ` ${seconds} seconds`);
     }
-
 }
 
 //calling and testing the function
